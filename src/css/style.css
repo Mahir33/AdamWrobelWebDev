@@ -422,6 +422,12 @@ header {
     opacity: .5;
 }
 
+@media(max-width: 330px){
+    .portfolio__item {
+        width: 80vw;
+    }
+}
+
 
 /* footer */
 
