@@ -401,7 +401,7 @@ header {
 
 .portfolio__item {
     max-width: 86vw;
-    /* background: var(--clr-accent); */
+    background: var(--clr-accent);
     overflow: hidden;
 }
 
