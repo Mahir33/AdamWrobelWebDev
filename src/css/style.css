@@ -458,6 +458,34 @@ header {
     text-decoration: underline;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.contact-form input, textarea {
+    display: block;
+    min-width: 30vw;
+    padding: 5px 0 5px 5px;
+    margin: 5px 0;
+    text-align: left;
+    font-size: var(--fs-body);
+    font-family: var(--ff-secondary);
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    border: none;
+}
+
+.contact-form input[type="textarea"] {
+    flex: 1;
+}
+
+.contact-form button {
+    margin-top: 10px;
+}
+
 .social-list {
     list-style: none;
     display: flex;
@@ -473,6 +501,8 @@ header {
 .social-list__link {
     padding: .5em;
 }
+
+
 
 
 /* Individual portfolio item styles */

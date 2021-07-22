@@ -45,7 +45,7 @@
             <h2 class="section__title section__title--services">What I do</h2>
             <div class="services">
                 <div class="service">
-                    <h3>Front-end Web Development</h3>
+                    <h3>Web Development</h3>
                     <p>My main experience is in front-end development but I also have a passion for design. Producing a modern website requires the combination of design, communication with back-end, and the layer that users interacts with, I believe having experience in both design and development allows for making the most optimal user experiences.</p>
                 </div> <!-- / service -->
                 
@@ -75,7 +75,7 @@
         <!-- About me -->
         <section class="about-me" id="about">
            <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Front-end Developer based in Berlin</p>
+           <p class="section__subtitle section__subtitle--about">front-end dev based in Berlin</p>
            
            <div class="about-me__body">
                <p>I come from Poland, I started my adventure with programming in 2019. The first small projects gave me a spark to change my career path. Working with the code and modifying elements gives me a real flow and satisfaction with my positive output effects. I appreciate to work in an open-minded, cultural, creative and professional enviroment.</p>
@@ -118,7 +118,13 @@
         <!-- Footer -->
         <footer class="footer">
             <!-- <a href="mailto:adam.marek.wrobel" class="footer__link">adam.marek.wrobel@gmail.com</a> -->
-            <p>adam.marek.wrobel@gmail.com</p>
+            
+        <form class="contact-form" action="https://formsubmit.co/adam.marek.wrobel@gmail.com" method="POST">
+            <input type="text" name="name" required placeholder="Your name">
+            <textarea name="message" id="message" required placeholder="Your message"></textarea>
+            <input type="email" name="email" required placeholder="Your e-mail">
+            <button class="btn" type="submit">Send</button>
+        </form>
             <ul class="social-list">
                 <li class="social-list__item">
                     <a class="social-list__link" href="https://www.linkedin.com/in/adam-wrobel-80802a20a/" target="_blank">
