@@ -465,7 +465,7 @@ header {
     flex-wrap: nowrap;
 }
 
-.contact__form input, .contact__form--message {
+.contact__form input, .contact__form-msg {
     display: block;
     min-width: 30vw;
     padding: 5px 0 5px 5px;
@@ -496,6 +496,13 @@ header {
 
 .social-list__link {
     padding: .5em;
+}
+
+.footer__summary {
+    padding-top: 1em;
+    font-size: var(--fs-body);
+    font-style: italic;
+    font-size: .6em;
 }
 
 
