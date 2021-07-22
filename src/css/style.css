@@ -458,14 +458,14 @@ header {
     text-decoration: underline;
 }
 
-.contact-form {
+.contact__form {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
 }
 
-.contact-form input, textarea {
+.contact__form input, .contact__form--message {
     display: block;
     min-width: 30vw;
     padding: 5px 0 5px 5px;
@@ -478,11 +478,7 @@ header {
     border: none;
 }
 
-.contact-form input[type="textarea"] {
-    flex: 1;
-}
-
-.contact-form button {
+.contact__form button {
     margin-top: 10px;
 }
 
