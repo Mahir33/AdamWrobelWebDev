@@ -252,7 +252,7 @@ header {
 }
 
 .intro__img {
-  box-shadow: var(--bs);
+  /* box-shadow: var(--bs); */
 }
 
 .section__subtitle--intro {
@@ -271,9 +271,13 @@ header {
     grid-template-columns: min-content max-content;
   }
 
+  .padding-reset {
+    padding: 5em 2em 0 2em;
+  }
+
   .intro__img {
     grid-area: img;
-    min-width: 250px;
+    min-width: 300px;
     position: relative;
     z-index: 2;
   }
